@@ -1,0 +1,46 @@
+/* Background Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0e0e10;
+    position: relative;
+}
+
+.background .circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(80px);
+}
+
+.blue {
+    background: #2a6dd4;
+    top: 10%;
+    left: 20%;
+}
+
+.orange {
+    background: #ff6d3c;
+    bottom: 10%;
+    right: 20%;
+}
+
+.background h1 {
+    text-align: upper;
+    color: white;
+    margin-bottom: 10px;
+}
+.background h2 {
+    text-align: upper;
+    color: white;
+    margin-bottom: 10px;
+}
+.background p {
+    text-align: upper;
+    color: white;
+    margin-bottom: 10px;
+}
+
